@@ -1,0 +1,46 @@
+.red, .blue {
+  margin: 20px auto; /*center*/
+  box-sizing: border-box;
+  width: 140px;
+  height: 140px;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+  position: relative;
+}
+
+.purple {
+  background-color: purple;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  margin: 0 auto;
+  top: 26%;
+}
+.yellow {
+  background-color: yellow;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+}
+
+.green {
+  background-color: green;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  margin: 0 auto;
+  top: 26%;
+}
+.black {
+  background-color: black;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: 0px;
+}
