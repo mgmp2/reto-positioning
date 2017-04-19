@@ -2,15 +2,6 @@
 window.addEventListener("load", function (e){
   e.preventDefault();
   createDiv(6, document.getElementById("body"));
-  // <div class="red">
-  //   <div class="purple">
-  //     <div class="yellow"></div>
-  //   </div>
-  // </div>
-  // <div class="blue">
-  //   <div class="green"></div>
-  //   <div class="black"></div>
-  // </div>
 });
 
 function createDiv(cantidad, padre){
@@ -22,4 +13,14 @@ function createDiv(cantidad, padre){
     dcf.appendChild(div);
     padre.appendChild(dcf);
   }
+  var red = padre.children[1];
+  var purple = padre.children[2];
+  var yellow = padre.children[3];
+  var blue = padre.children[4];
+  var green = padre.children[5];
+  var black = padre.children[6];
+  purple.appendChild(yellow);
+  red.appendChild(purple);
+  blue.appendChild(green);
+  blue.appendChild(black);
 }
